@@ -5,11 +5,81 @@
 	<title>Napoleon IT Company</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,700' rel='stylesheet' type='text/css'>
 	<script src="js/jquery-1.7.2.min.js"></script>
 </head>
 <body>
 	<div>Hello world!</div>
-
+	<div class="main">
+		<div class="sidebar">
+			<div class="logo">
+				<img src="img/logo.png" title="logo of NapoleonIt Copmany" height="70" width="151">
+			</div>
+			<div class="sidebar__menu">
+				<ul>
+					<li>АИС</li>
+					<li>АИС</li>
+					<li>АИС</li>
+					<li>АИС</li>
+					<li>АИС</li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="search">
+				
+			</div>
+			<div class="content__menu">
+				<div class="menu__el">
+					<div class="menu-el__pic menu-el__pic_photo"></div>
+					<div class="menu-el__title">Фотоотчеты</div>
+				</div>
+				<div class="menu__el">
+					<div class="menu-el__pic menu-el__pic_store"></div>
+					<div class="menu-el__title">Магазины</div>
+				</div>
+				<div class="menu__el">
+					<div class="menu-el__pic menu-el__pic_callback"></div>
+					<div class="menu-el__title">Обратная связь</div>
+				</div>
+				<div class="menu__el">
+					<div class="menu-el__pic menu-el__pic_mail"></div>
+					<div class="menu-el__title">Почта</div>
+				</div>
+				<div class="menu__el">
+					<div class="menu-el__pic menu-el__pic_order"></div>
+					<div class="menu-el__title">Заявка</div>
+				</div>
+				<div class="menu__el">
+					<div class="menu-el__pic menu-el__pic_phone"></div>
+					<div class="menu-el__title">Контакты</div>
+				</div>
+			</div>
+			<div class="content__update">
+				<div class="update__title">Лента изменений на сайте</div>
+				<div class="update__filter">
+					<form action="?">
+						<div class="update-filter__el update-filter__el_time">
+							<span>Период с</span>
+							<input type="date">
+							<span>по</span>						
+							<input type="date">
+						</div>
+						<div class="update-filter__el update-filter__el_time">
+							<span>Департамент</span>
+							<select>
+								<option>все получатели</option>
+								<option>не все получатели</option>
+								<option>какие-то получатели</option>
+								<option>одни получатели</option>
+							</select>
+						</div>
+						<button type="submit">Найти изменение</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>
