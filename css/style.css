@@ -1,3 +1,16 @@
 body {
 	font-family: Roboto;
 }
+.sidebar__menu {
+	height: 200px;
+	width: 300px;
+}
+.mCSB_scrollTools {
+	left: 0;
+}
+.mCSB_scrollTools .mCSB_buttonUp {
+
+}
+.mCSB_scrollTools .mCSB_buttonDown {
+	
+}
