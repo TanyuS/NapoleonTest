@@ -1,16 +1,63 @@
-body {
+html, body {
 	font-family: Roboto;
+	font-size: 19px;
+	height: 100%;
+}
+.main {
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	width: 1300px;
+}
+.sidebar {
+	display: block;
+	float: left;
+	height: 100%;
+	text-align: left;
+	width: 20%;
 }
 .sidebar__menu {
-	height: 200px;
-	width: 300px;
+	font-weight: 300;
+	height: calc(100% - 150px);
+	margin: 0 0 15px 0;
+}
+.logo {
+	margin: 15px;
+	text-align: center;
+}
+.default-list {
+	list-style-type: none;
+}
+.default-list li {
+	border-bottom: 1px solid #d7d7d7;
+	display: block;
+	line-height: 1.2em;
+	padding: 5px 0;
+}
+.content {
+	width: auto;
 }
 .mCSB_scrollTools {
 	left: 0;
 }
-.mCSB_scrollTools .mCSB_buttonUp {
-
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_buttonDown {
+	background: url(../img/arrows.png) no-repeat 0 0 transparent;
+	cursor: pointer;
+	height: 4px;
+	margin-left: 5px;
+	opacity: 1;
+	width: 7px;
 }
 .mCSB_scrollTools .mCSB_buttonDown {
-	
+	background-position: -8px 0;
+}
+.mCSB_scrollTools a+.mCSB_draggerContainer {
+	margin: 10px 0;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+	background-color: #d7d7d7;
+}
+.mCSB_dragger_bar {
+	background-color: #fff;
 }
