@@ -56,9 +56,18 @@
 		<div class="content">
 			<div class="search">
 				<form action="/search.html">
-					<input type="text" placeholder="Поиск"/>
-					<button type="submit">Найти</button>
+					<input type="text" placeholder="Поиск" class="search__input" />
+					<button type="submit" class="search__button">Найти</button>
 				</form>
+				<div class="user">
+					<div class="user__greeting">
+						<img src="img/person.svg" height="20">
+						<span class="user-greeting__username">Username</span>, добрый день!
+					</div>
+					<a href="" class="user__logoff">
+						<img src="img/logoff.svg" height="25">
+					</a>
+				</div>
 			</div>
 			<div class="content__menu">
 				<div class="menu__el">
