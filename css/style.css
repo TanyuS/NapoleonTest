@@ -14,6 +14,7 @@ html, body {
 .sidebar {
 	display: block;
 	float: left;
+	font-size: .95em;
 	height: 100%;
 	position: fixed;
 	text-align: left;
@@ -353,5 +354,13 @@ html, body {
 	    display: block;
 	    width: auto;
 	    margin: 7px 0;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.content {
+		margin-left: 186px;
+	}
+	.sidebar {
+		font-size: .8em;
 	}
 }
