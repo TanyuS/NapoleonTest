@@ -5,10 +5,12 @@
 	<title>Napoleon IT Company</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/dateinput.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,700' rel='stylesheet' type='text/css'>
 	<script src="js/jquery-1.7.2.min.js"></script>
 	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="http://cdn.jquerytools.org/1.2.6/form/jquery.tools.min.js"></script>
 	<script src="js/main.js"></script>
 </head>
 <body>
@@ -19,37 +21,37 @@
 			</div>
 			<div class="sidebar__menu">
 				<ul class="default-list">
-					<li>АИС</li>
-					<li>Бухгалтерия</li>
-					<li>Закупки</li>
-					<li>Канцелярия</li>
-					<li>Маркетинг и реклама</li>
-					<li>Персонал</li>
-					<li>Продажи</li>
-					<li>Программное обеспечение</li>
-					<li>Расчетный отдел</li>
-					<li>Ревизоры</li>
-					<li>Сертификация,<br/>документооборот</li>
-					<li>Служба безопасности</li>
-					<li>Техническое обеспечение</li>
-					<li>Товародвижение</li>
-					<li>Финансовый отдел</li>
-					<li>Эксплуатация<br/>и строительство</li>
-					<li>Юридический департамент</li>
+					<li><a href="">АИС</a></li>
+					<li><a href="">Бухгалтерия</a></li>
+					<li><a href="">Закупки</a></li>
+					<li><a href="">Канцелярия</a></li>
+					<li><a href="">Маркетинг и реклама</a></li>
+					<li><a href="">Персонал</a></li>
+					<li><a href="">Продажи</a></li>
+					<li><a href="">Программное обеспечение</a></li>
+					<li><a href="">Расчетный отдел</a></li>
+					<li><a href="">Ревизоры</a></li>
+					<li><a href="">Сертификация,<br/>документооборот</a></li>
+					<li><a href="">Служба безопасности</a></li>
+					<li><a href="">Техническое обеспечение</a></li>
+					<li><a href="">Товародвижение</a></li>
+					<li><a href="">Финансовый отдел</a></li>
+					<li><a href="">Эксплуатация<br/>и строительство</a></li>
+					<li><a href="">Юридический департамент</a></li>
 				</ul>
 				<ul class="default-list">
-					<li>Таблица пропусков</li>
-					<li>Фотогалерея</li>
-					<li>Таблица пропусков</li>
-					<li>Фотогалерея</li>
-					<li>Таблица пропусков</li>
-					<li>Фотогалерея</li>
-					<li>Таблица пропусков</li>
-					<li>Фотогалерея</li>
-					<li>Таблица пропусков</li>
-					<li>Фотогалерея</li>
-					<li>Таблица пропусков</li>
-					<li>Фотогалерея</li>
+					<li><a href="">Таблица пропусков</a></li>
+					<li><a href="">Фотогалерея</a></li>
+					<li><a href="">Таблица пропусков</a></li>
+					<li><a href="">Фотогалерея</a></li>
+					<li><a href="">Таблица пропусков</a></li>
+					<li><a href="">Фотогалерея</a></li>
+					<li><a href="">Таблица пропусков</a></li>
+					<li><a href="">Фотогалерея</a></li>
+					<li><a href="">Таблица пропусков</a></li>
+					<li><a href="">Фотогалерея</a></li>
+					<li><a href="">Таблица пропусков</a></li>
+					<li><a href="">Фотогалерея</a></li>
 				</ul>
 			</div>
 		</div>
@@ -61,39 +63,39 @@
 				</form>
 				<div class="user">
 					<div class="user__greeting">
-						<img src="img/person.svg" height="20">
+						<img src="img/person.svg" height="21">
 						<span class="user-greeting__username">Username</span>, добрый день!
 					</div>
 					<a href="" class="user__logoff">
-						<img src="img/logoff.svg" height="25">
+						<img src="img/logoff.svg" height="20">
 					</a>
 				</div>
 			</div>
 			<div class="content__menu">
-				<div class="menu__el">
+				<a href="/photo" class="menu__el menu__el_first">
 					<div class="menu-el__pic menu-el__pic_photo"></div>
 					<div class="menu-el__title">Фотоотчеты</div>
-				</div>
-				<div class="menu__el">
+				</a>
+				<a href="/photo" class="menu__el">
 					<div class="menu-el__pic menu-el__pic_store"></div>
 					<div class="menu-el__title">Магазины</div>
-				</div>
-				<div class="menu__el">
+				</a>
+				<a href="/photo" class="menu__el">
 					<div class="menu-el__pic menu-el__pic_callback"></div>
 					<div class="menu-el__title">Обратная связь</div>
-				</div>
-				<div class="menu__el">
+				</a>
+				<a href="/photo" class="menu__el">
 					<div class="menu-el__pic menu-el__pic_mail"></div>
 					<div class="menu-el__title">Почта</div>
-				</div>
-				<div class="menu__el">
+				</a>
+				<a href="/photo" class="menu__el">
 					<div class="menu-el__pic menu-el__pic_order"></div>
 					<div class="menu-el__title">Заявка</div>
-				</div>
-				<div class="menu__el">
+				</a>
+				<a href="/photo" class="menu__el">
 					<div class="menu-el__pic menu-el__pic_phone"></div>
 					<div class="menu-el__title">Контакты</div>
-				</div>
+				</a>
 			</div>
 			<div class="content__update">
 				<div class="update__title">Лента изменений на сайте</div>
@@ -101,11 +103,11 @@
 					<form action="?">
 						<div class="update-filter__el update-filter__el_time">
 							<span>Период с</span>
-							<input type="date">
-							<span>по</span>						
-							<input type="date">
+							<input type="date" id="period-from-input" placeholder="Выбрать дату">
+							<span>по</span>					
+							<input type="date" id="period-to-input" placeholder="Выбрать дату">
 						</div>
-						<div class="update-filter__el update-filter__el_time">
+						<div class="update-filter__el update-filter__el_dep">
 							<span>Департамент</span>
 							<select>
 								<option>все получатели</option>
@@ -114,8 +116,126 @@
 								<option>одни получатели</option>
 							</select>
 						</div>
-						<button type="submit">Найти изменение</button>
+						<button type="submit" class="update-filter__el update-filter__button">Найти изменение</button>
 					</form>
+				</div>
+			</div>
+			<div class="content__update-result">
+				<div class="result__column result__column_first">						
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>						
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>						
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>						
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>						
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>	
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>	
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>	
+				</div>
+				<div class="result__second-column">
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>						
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>						
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>						
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>						
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>	
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>	
+					<div class="result__el">
+						<div class="result-el__date">20.06.16</div>
+						<div class="result-el__title">Продукты 3 гондолы 25.03.2016</div>
+						<div class="result-el__path">
+							<a href="">Маркетинг и реклама</a>/<a href="">Планограммы</a>/<a href="">продукты</a>
+						</div>
+					</div>	
 				</div>
 			</div>
 		</div>
